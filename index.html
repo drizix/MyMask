@@ -2,157 +2,193 @@
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <title></title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <title>MyMask</title>
   </head>
   <body>
+    <a href="#" class="fixed_pos btn_return_top"><img src="images/fleche_haut_1.png" alt=""></a>
 <!-- //////////////////////////////NAVIGATION////////////////////////////// -->
-    <nav>
+<!-- ....................Icone site.................... -->
+    <nav class="main_nav fixed_pos w_100">
       <div class="container">
-        <div class="inline_items">
-        <a href="#"><img src="images/logo.svg" alt=""></a>
+        <div class="d_flex d_flex_btw d_flex_items_center">
+          <div class="w_20">
+            <a href="#"><img class="big_zoom" src="images/logo.svg" alt=""></a>
+          </div>
 <!-- ....................Menu.................... -->
-        <ul>
-          <li class="inline_text"><a href="#">Nouveautés</a></li>
-          <li class="inline_text"><a href="#">Homme</a></li>
-          <li class="inline_text"><a href="#">Femme</a></li>
-          <li class="inline_text"><a href="#">Enfant</a></li>
-          <li class="inline_text"><a href="#">Promotions</a></li>
-        </ul>
+          <div class="w_60">
+            <input class="menu_toggle" type="button" name="menu" value="Menu ▼">
+            <ul class="text_menu d_flex d_flex_btw">
+              <li class="big_zoom"><a href="#">Nouveautés</a></li>
+              <li class="big_zoom"><a href="#">Homme</a></li>
+              <li class="big_zoom"><a href="#">Femme</a></li>
+              <li class="big_zoom"><a href="#">Enfant</a></li>
+              <li class="big_zoom"><a href="#">Promotions</a></li>
+            </ul>
+          </div>
 <!-- ....................Icone navigation.................... -->
-        <div class="right_icone_align">
-        <a href="#"><img src="images/coeur_icone_nav.svg" alt=""></a>
-        <a href="#"><img src="images/panier_icone_nav.svg" alt=""></a>
-        <a href="#"><img src="images/profil_icone_nav.svg" alt=""></a>
-        </div>
+          <div class="w_20">
+            <div class="d_flex d_flex_end icone_nav_pos">
+              <a href="#"><img class="big_zoom" src="images/coeur_icone_nav.svg" alt=""></a>
+              <a href="#"><img class="big_zoom" src="images/panier_icone_nav.svg" alt=""></a>
+              <a href="#"><img class="big_zoom" src="images/profil_icone_nav.svg" alt=""></a>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
 <!-- //////////////////////////////HEADER////////////////////////////// -->
     <header>
       <div class="container">
-        <h1>Protégez-vous avec goût !</h1>
-        <p>Découvrez notre large gamme de masques<br>
-        personalisés qui correspond à vos envies.</p>
-        <p><a href="#"><div class="button_header">Découvrir</div></a></p>
+        <div class="txt_area">
+          <h1>Protégez-vous avec goût !</h1>
+          <p>Découvrez notre large gamme de masques<br>
+          personalisés qui correspond à vos envies.</p>
+          <a href="#"><div class="button_header d_ib">Découvrir</div></a>
         </div>
+      </div>
     </header>
     <main>
 <!-- //////////////////////////////CATEGORIE////////////////////////////// -->
-      <section>
+      <section class="sec_categorie">
         <div class="container">
-          <h2>Catégorie</h2>
-            <div class="cat_align">
-            <a href="#"><img src="images/cat_homme.png" alt=""></a>
-            <div class="cat_column">
-            <a href="#"><img src="images/cat_femme.png" alt=""></a>
-            <a href="#"><img src="images/cat_enfant.png" alt=""></a>
+          <h2>Catégories</h2>
+          <div class="d_flex d_flex_btw">
+            <a href="#" class="zoom"><div class= "d_flex d_flex_center d_flex_items_center overlay_cat absolute_pos w_100"><span class="color_txt_white">Homme</span></div><img class ="img_cat_homme" src="images/cat_homme.png" alt=""><img class ="img_cat_homme_mobile" src="images/cat_homme_rsv.png" alt=""></a>
+            <div class="d_flex d_flex_col d_flex_btw">
+              <a href="#" class="zoom"><div class= "d_flex d_flex_center d_flex_items_center overlay_cat absolute_pos w_100"><span class="color_txt_white">Femme</span></div><img src="images/cat_femme.png" alt=""></a>
+              <a href="#" class="zoom"><div class= "d_flex d_flex_center d_flex_items_center overlay_cat absolute_pos w_100"><span class="color_txt_white">Enfant</span></div><img src="images/cat_enfant.png" alt=""></a>
             </div>
           </div>
         </div>
       </section>
 <!-- //////////////////////////////ARTICLES////////////////////////////// -->
+      <section class="sec_article">
       <div class="container">
-        <section>
         <h2>Articles</h2>
-        <div class="align_article">
+        <div class="d_flex d_flex_btw">
           <!-- ....................Article 1.................... -->
           <article class="">
-            <img class="img_article" src="images/article_masque_rouge.png" alt="">
-            <a href="#"><img class="coeur" src="images/coeur.png" alt=""></a>
-            <a href="#"><img class="panier" src="images/panier.png" alt=""></a>
+            <div class="relative_pos">
+              <div class="absolute_pos fav_icons_article big_zoom">
+                <a href="#"><img src="images/coeur_icone_nav.svg" alt=""></a>
+              </div>
+            <img class="img_product" src="images/article_masque_rouge.png" alt="">
+            </div>
             <h3 class="h3_article">Masque couleur uni rouge</h3>
-            <p><a href="#"><div class="button_article">Voir</div></a></p>
-            <p class="p_article">10 €</p>
+            <div class="d_flex d_flex_btw row_footer_article d_flex_center d_flex_items_center">
+              <span>10 €</span>
+              <a href="#"><div class="button_article">Voir</div></a>
+              <a href="#"><img class="big_zoom" src="images/panier.png" alt=""></a>
+            </div>
           </article>
           <!-- ....................Article 2.................... -->
           <article class="">
-            <img class="img_article" src="images/article_masque_enfant.png" alt="">
-            <a href="#"><img class="coeur" src="images/coeur.png" alt=""></a>
-            <a href="#"><img class="panier" src="images/panier.png" alt=""></a>
+            <div class="relative_pos">
+              <div class="absolute_pos fav_icons_article big_zoom">
+                <a href="#"><img src="images/coeur_icone_nav.svg" alt=""></a>
+              </div>
+            <img class="img_product" src="images/article_masque_enfant.png" alt="">
+            </div>
             <h3 class="h3_article">Masque enfant</h3>
-            <p><a href="#"><div class="button_article">Voir</div></a></p>
-            <p class="p_article">8 €</p>
+            <div class="d_flex d_flex_btw row_footer_article d_flex_center d_flex_items_center">
+              <span>8 €</span>
+              <a href="#"><div class="button_article">Voir</div></a>
+              <a href="#"><img class="big_zoom" src="images/panier.png" alt=""></a>
+            </div>
           </article>
           <!-- ....................Article 3.................... -->
           <article class="">
-            <img class="img_article" src="images/article_masque_fantaisie.png" alt="">
-            <a href="#"><img class="coeur" src="images/coeur.png" alt=""></a>
-            <a href="#"><img class="panier" src="images/panier.png" alt=""></a>
+            <div class="relative_pos">
+              <div class="absolute_pos fav_icons_article big_zoom">
+                <a href="#"><img src="images/coeur_icone_nav.svg" alt=""></a>
+              </div>
+            <img class="img_product" src="images/article_masque_fantaisie.png" alt="">
+            </div>
             <h3 class="h3_article">Masque fantaisie</h3>
-            <p><a href="#"><div class="button_article">Voir</div></a></p>
-            <p class="p_article">12 €</p>
+            <div class="d_flex d_flex_btw row_footer_article d_flex_center d_flex_items_center">
+              <span>12 €</span>
+              <a href="#"><div class="button_article">Voir</div></a>
+              <a href="#"><img class="big_zoom" src="images/panier.png" alt=""></a>
+            </div>
           </article>
         </div>
       </div>
     </section>
 <!-- //////////////////////////////PROMO////////////////////////////// -->
-    <section>
+    <section class="sec_promo">
       <div class="promo">
-        <div class="container align_text_promo">
-        <p class="ligne_1">Profitez de -10%</p>
-        <p class="ligne_2">sur votre première commande avec notre code promo !</p>
-        <div class="button_promo">
-          <p><a href="#">WELCOME</a></p>
+        <div class="container d_flex d_flex_end">
+          <div class="d_flex d_flex_col d_flex_center">
+            <span class="txt_center big_txt_promo">Profitez de -10%</span>
+            <p class="txt_promo txt_center fs_30 color_txt_white">sur votre première commande avec notre code promo !</p>
+            <div class="button_promo txt_center">
+              <a class="color_txt_white fs_30" href="#">WELCOME</a>
+            </div>
           </div>
         </div>
-    </div>
+      </div>
     </section>
-<!-- //////////////////////////////ICONE AVANTAGE////////////////////////////// -->
-    <section>
+<!-- //////////////////////////////ICONE AVENTAGE////////////////////////////// -->
+    <section class="sec_icone_adv">
       <div class="container">
-        <div class="align_icone">
+        <div class="adv_icone d_flex d_flex_btw txt_center">
           <!-- ....................Icone recyclé.................... -->
-          <div class="col_icone">
+          <div class="d_flex d_flex_col">
             <img src="images/icone_recycle.svg" alt="">
-            <p>Recyclé</p>
+            <span>Recyclé</span>
           </div>
           <!-- ....................Icone livraison.................... -->
-          <div class="col_icone">
+          <div class="d_flex d_flex_col">
             <img src="images/icone_livraison.svg" alt="">
-            <p>Livraison 48h</p>
+            <span>Livraison 48h</span>
           </div>
           <!-- ....................Icone paiment.................... -->
-          <div class="col_icone">
+          <div class="d_flex d_flex_col">
             <img src="images/icone_paiment.svg" alt="">
-            <p>Paiment rapide</p>
+            <span>Paiment rapide</span>
           </div>
         </div>
       </div>
     </section>
     </main>
     <footer>
-
       <div class="container">
-        <div class="align_content_footer">
-        <div class="col_footer">
-          <h4>A propos</h4>
-          <p><a href="#">Entreprise</a></p>
-          <p><a href="#">Partenaire</a></p>
-          <p><a href="#">Recrutement</a></p>
-        </div>
-        <div class="col_footer">
-          <h4>Assistance</h4>
-          <p><a href="#">Aide</a></p>
-          <p><a href="#">Contactez-nous</a></p>
-          <p><a href="#">Mentions légales</a></p>
-          <p><a href="#">Conditions générales de vente</a></p>
-          <p><a href="#">protection des données</a></p>
-        </div>
-        <div class="col_footer">
-          <h4>Reseau sociaux</h4>
-          <div class="align_icone_footer">
-          <a href="https://fr-fr.facebook.com/" target="_blank"><img src="images/icone_facebook.svg" alt=""></a>
-          <a href="https://twitter.com/?lang=fr" target="_blank"><img src="images/icone_twitter.svg" alt=""></a>
-          <a href="https://www.instagram.com/" target="_blank"><img src="images/icone_insta.svg" alt=""></a>
+        <div class="d_flex d_flex_btw">
+          <div class="logo_footer d_flex d_flex_center">
+            <img src="images/logo_footer.svg" alt="">
           </div>
-          <h4>Lettre d'information</h4>
-          <input class="nl_input" type="text" id="nl_mail" name="nl_mail" size="29" placeholder="Votre adresse mail ici.">
+          <div class="w_20 d_flex d_flex_col">
+            <h4>A propos</h4>
+            <a href="#">Entreprise</a>
+            <a href="#">Partenaire</a>
+            <a href="#">Recrutement</a>
+          </div>
+          <div class="w_20 d_flex d_flex_col txt">
+            <h4>Assistance</h4>
+            <a href="#">Aide</a>
+            <a href="#">Contactez-nous</a>
+            <a href="#">Mentions légales</a>
+            <a href="#">Conditions générales de vente</a>
+            <a href="#">protection des données</a>
+          </div>
+          <div class="w_20">
+            <h4>Reseaux sociaux</h4>
+            <div class="logo_rs_footer d_flex d_flex_end mg_bot_10">
+              <a href="https://fr-fr.facebook.com/" target="_blank"><img src="images/icone_facebook.svg" alt=""></a>
+              <a href="https://twitter.com/?lang=fr" target="_blank"><img src="images/icone_twitter.svg" alt=""></a>
+              <a href="https://www.instagram.com/" target="_blank"><img src="images/icone_insta.svg" alt=""></a>
+            </div>
+            <h4>Lettre d'information</h4>
+              <input class="nl_input color_txt_white" type="text" id="nl_mail" name="nl_mail" size="20" placeholder="Votre adresse mail ici.">
+              <input class="btn_nl color_txt_white" type="button" name="btn_nl" value=">">
+          </div>
         </div>
-      </div>
       </div>
     </footer>
-    </div>
   </body>
 </html>

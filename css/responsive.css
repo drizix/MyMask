@@ -1,0 +1,130 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .container{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+/* ||||||||||||||||||||MENU NAVIGATION|||||||||||||||||||| */
+.main_nav .container>.d_flex{
+  flex-direction: column;
+  text-align: center;
+  margin: 0;
+}
+
+/*Affichage du menu */
+.text_menu, .icone_nav_pos{
+  display: none;
+}
+
+.main_nav .w_60{
+  width: 100%;
+}
+
+.main_nav ul {
+  flex-direction: column;
+}
+
+.main_nav li{
+  padding-bottom: 15px;
+  text-align: left;
+}
+
+.main_nav .icone_nav_pos{
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.main_nav a{
+  margin: 0;
+}
+
+.menu_toggle{
+  display: initial;
+  margin-top: 5px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px;
+}
+/* ||||||||||||||||||||HEADER|||||||||||||||||||| */
+  header{
+    margin-top: 116px;
+    padding: 200px 0 0 0;
+  }
+
+  .txt_area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+/* ||||||||||||||||||||CATEGORIE|||||||||||||||||||| */
+  .sec_categorie img{
+    width: 100%;
+  }
+
+  .overlay_cat{
+    padding: 10px 0;
+    border-radius: 0 0 5px 5px;
+  }
+
+  .sec_categorie .container .d_flex{
+    flex-direction: column;
+  }
+
+  .img_cat_homme{
+    display : none;
+  }
+
+  .img_cat_homme_mobile{
+    display: initial;
+  }
+/* ||||||||||||||||||||ARTICLE|||||||||||||||||||| */
+  article{
+    margin-bottom: 10px;
+  }
+
+  .sec_article .container>.d_flex{
+    flex-direction: column;
+  }
+/* ||||||||||||||||||||PROMO|||||||||||||||||||| */
+  .promo{
+    background-position: left;
+    padding: 60px 0;
+  }
+
+  .big_txt_promo{
+    font-size: 40px;
+    -webkit-text-stroke: 2px white;
+  }
+
+  .txt_promo{
+    font-size: 20px;
+  }
+/* ||||||||||||||||||||ICONE AVENTAGE|||||||||||||||||||| */
+  .adv_icone span {
+      font-size: 15px;
+  }
+/* ||||||||||||||||||||FOOTER|||||||||||||||||||| */
+  footer .container>.d_flex {
+    flex-direction: column;
+  }
+
+  footer .container .d_flex, .container .w_20{
+    width: 100%;
+  }
+
+  footer .container .w_20 .d_flex{
+    justify-content: space-around;
+  }
+
+  footer a{
+    margin-bottom: 20px;
+  }
+
+  .logo_footer img {
+    width: 50%;
+    margin-bottom: 50px;
+}
+}
