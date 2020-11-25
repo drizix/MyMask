@@ -12,7 +12,7 @@
 }
 
 /*Affichage du menu */
-.text_menu, .icone_nav_pos{
+.txt_menu, .icone_nav_pos{
   display: none;
 }
 
@@ -126,5 +126,9 @@
   .logo_footer img {
     width: 50%;
     margin-bottom: 50px;
-}
+  }
+
+  .btn_return_top{
+    display: none;
+  }
 }
