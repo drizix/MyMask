@@ -7,8 +7,8 @@ html {
 }
 
 body{
-  position: relative;
   font-family: 'Roboto', sans-serif;
+  position: relative;
 }
 
 body,p,.main_nav ul{
@@ -36,9 +36,9 @@ section{
 }
 
 .container{
-  width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  width: 1200px;
 }
 /* ||||||||||||||||||||MISE EN PAGE|||||||||||||||||||| */
 /* __effet visuel__ */
@@ -63,7 +63,11 @@ section{
 }
 /* __Display__ */
 .d_flex{
-  Display: flex;
+  display: flex;
+}
+
+.d_ib{
+  display: inline-block;
 }
 
 .d_flex_row{
@@ -88,10 +92,6 @@ section{
 
 .d_flex_items_center{
   align-items: center;
-}
-
-.d_ib{
-  display: inline-block;
 }
 /* __Position__ */
 .relative_pos{
@@ -134,12 +134,12 @@ header a:hover,footer a:hover{
   font-size: 30px;
 }
 /* __largeur__ */
-.w_60{
-  width: 60%;
-}
-
 .w_20{
   width: 20%;
+}
+
+.w_60{
+  width: 60%;
 }
 
 .w_100{
@@ -167,13 +167,13 @@ body,.button_promo:hover{
 }
 /* ||||||||||||||||||||MENU_NAVIGATION|||||||||||||||||||| */
 .main_nav{
-  top: 0;
   left: 0;
+  top: 0;
   z-index: 2;
 }
 
 .main_nav a{
-  color : black;
+  color: black;
 }
 
 .main_nav a:hover{
@@ -206,9 +206,9 @@ footer{
 }
 
 .nl_input{
-  padding: 5px;
   background: transparent;
   border: 1px solid white;
+  padding: 5px;
 }
 
 .btn_nl{
@@ -219,12 +219,12 @@ footer{
 /* ||||||||||||||||||||HEADER|||||||||||||||||||| */
 header{
   background-image:url('../images/background_image_header.png');
-  background-size: cover;
-  background-repeat: no-repeat;
   background-position: center top;
-  padding: 200px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-bottom: 50px;
   margin-top: 82px;
+  padding: 200px 0;
 }
 
 header a, .row_footer_article a{
@@ -237,16 +237,16 @@ header a:hover,.button_header:hover{
 
 .button_header{
   border-radius: 10px;
-  padding: 15px 50px;
   margin-top: 15px;
+  padding: 15px 50px;
 }
 /* ||||||||||||||||||||SECTION CATEGORIE|||||||||||||||||||| */
 .overlay_cat{
-  padding: 30px 0;
-  bottom: 5px;
-  left: 0;
   background-color: rgba(0,0,0,0.5);
   border-radius: 0 0 10px 10px;
+  bottom: 5px;
+  padding: 30px 0;
+  left: 0;
 }
 
 .img_cat_homme_mobile{
@@ -294,9 +294,9 @@ article:hover {
 /* ||||||||||||||||||||SECTION PROMO|||||||||||||||||||| */
 .promo{
   background-image:url('../images/promo.png');
-  background-size: cover;
-  background-repeat: no-repeat;
   background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 100px 0;
 }
 
@@ -306,15 +306,15 @@ article:hover {
 }
 
 .button_promo{
-  padding: 30px 100px;
   border: 5px solid white;
   margin-top: 30px;
+  padding: 30px 100px;
 }
 
 .button_promo:hover{
-  padding: 30px 100px;
   border: 5px solid #477BFF;
   margin-top: 30px;
+  padding: 30px 100px;
   transition: .3s ease;
 }
 
@@ -328,7 +328,7 @@ article:hover {
 }
 /* ||||||||||||||||||||ANCRE|||||||||||||||||||| */
 .btn_return_top{
+  bottom: 0;
   font-size: 50px;
   right: 10px;
-  bottom: 0;
 }

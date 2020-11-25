@@ -1,27 +1,31 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .container{
-    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
   }
+
+  .container,.main_nav,.sec_categorie img,.w_20{
+    width: 100%;
+  }
+
+  .main_nav .container>.d_flex,.main_nav ul,.txt_area,.sec_categorie .d_flex,.sec_article .container>.d_flex,footer .container>.d_flex {
+    flex-direction: column;
+  }
+
+  .main_nav .icone_nav_pos,.logo_rs_footer{
+    justify-content: space-around;
+  }
+  /*.txt_menu/.icone_nav_pos = affichage ou pas du toogle menu */
+  .txt_menu, .icone_nav_pos,.img_cat_homme,.btn_return_top{
+    display: none;
+  }
 /* ||||||||||||||||||||MENU NAVIGATION|||||||||||||||||||| */
 .main_nav .container>.d_flex{
-  flex-direction: column;
   text-align: center;
+}
+
+.main_nav .container>.d_flex,main_nav a{
   margin: 0;
-}
-
-/*Affichage du menu */
-.txt_menu, .icone_nav_pos{
-  display: none;
-}
-
-.main_nav .w_60{
-  width: 100%;
-}
-
-.main_nav ul {
-  flex-direction: column;
 }
 
 .main_nav li{
@@ -31,11 +35,6 @@
 
 .main_nav .icone_nav_pos{
   flex-direction: row;
-  justify-content: space-around;
-}
-
-.main_nav a{
-  margin: 0;
 }
 
 .menu_toggle{
@@ -53,28 +52,15 @@
 
   .txt_area{
     display: flex;
-    flex-direction: column;
     align-items: center;
     padding: 10px;
     border-radius: 25px;
     background-color: rgba(0, 0, 0, 0.5);
   }
 /* ||||||||||||||||||||CATEGORIE|||||||||||||||||||| */
-  .sec_categorie img{
-    width: 100%;
-  }
-
   .overlay_cat{
     padding: 10px 0;
     border-radius: 0 0 5px 5px;
-  }
-
-  .sec_categorie .container .d_flex{
-    flex-direction: column;
-  }
-
-  .img_cat_homme{
-    display : none;
   }
 
   .img_cat_homme_mobile{
@@ -85,9 +71,6 @@
     margin-bottom: 10px;
   }
 
-  .sec_article .container>.d_flex{
-    flex-direction: column;
-  }
 /* ||||||||||||||||||||PROMO|||||||||||||||||||| */
   .promo{
     background-position: left;
@@ -103,32 +86,16 @@
     font-size: 20px;
   }
 /* ||||||||||||||||||||ICONE AVENTAGE|||||||||||||||||||| */
-  .adv_icone span {
+  .adv_icone span{
       font-size: 15px;
   }
 /* ||||||||||||||||||||FOOTER|||||||||||||||||||| */
-  footer .container>.d_flex {
-    flex-direction: column;
-  }
-
-  footer .container .d_flex, .container .w_20{
-    width: 100%;
-  }
-
-  footer .container .w_20 .d_flex{
-    justify-content: space-around;
-  }
-
   footer a{
     margin-bottom: 20px;
   }
 
-  .logo_footer img {
+  .logo_footer img{
     width: 50%;
     margin-bottom: 50px;
-  }
-
-  .btn_return_top{
-    display: none;
   }
 }
