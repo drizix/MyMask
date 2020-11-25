@@ -16,7 +16,7 @@
     justify-content: space-around;
   }
   /*.txt_menu/.icone_nav_pos = affichage ou pas du toogle menu */
-  .txt_menu, .icone_nav_pos,.img_cat_homme,.btn_return_top{
+  .txt_menu, .icone_nav_pos,.img_cat_homme,.btn_return_top,.label_mail{
     display: none;
   }
 /* ||||||||||||||||||||MENU NAVIGATION|||||||||||||||||||| */

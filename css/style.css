@@ -70,6 +70,10 @@ section{
   display: inline-block;
 }
 
+.menu_toggle,.img_cat_homme_mobile,.label_mail{
+  display: none;
+}
+
 .d_flex_row{
   flex-direction: row;
 }
@@ -126,7 +130,7 @@ header a:hover,footer a:hover{
   text-decoration: underline;
 }
 
-.big_txt_promo,.button_promo a{
+.big_txt_promo,.button_promo a,.btn_nl{
   font-weight: bold;
 }
 
@@ -187,10 +191,6 @@ body,.button_promo:hover{
 .icone_nav_pos a{
   margin-left: 20px;
 }
-
-.menu_toggle{
-  display: none;
-}
 /* ||||||||||||||||||||FOOTER|||||||||||||||||||| */
 footer{
   background-color: black;
@@ -247,10 +247,6 @@ header a:hover,.button_header:hover{
   bottom: 5px;
   padding: 30px 0;
   left: 0;
-}
-
-.img_cat_homme_mobile{
-  display : none;
 }
 /* ||||||||||||||||||||SECTION ARTICLE|||||||||||||||||||| */
 .img_product{
